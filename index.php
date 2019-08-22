@@ -6,7 +6,7 @@
 <body>
     <?php
     phpinfo();
-    $user="username";
+    $user="patrick";
     $password="password";
     $database="database";
     mysql_connect(localhost,$user,$password);
