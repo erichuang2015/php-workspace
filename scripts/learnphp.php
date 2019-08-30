@@ -12,7 +12,7 @@ echo date('h:i:s:u a, l F jS Y e');*/
 $userName = $_POST['username'];
 $address = $_POST['address'];
 $city = $_POST['city'];
-
+/*
 echo "<hr>";
 echo $userName . "<hr>";
 echo $address . "<hr>";
@@ -28,7 +28,12 @@ echo $str;
 
 define('PI', 3.1415926);
 echo "The value of pi is " . PI;
-
+*/
+echo "</br>5 + 2 = " . (5+2);
+echo "</br>5 - 2 = " . (5-2);
+echo "</br>5 * 2 = " . (5*2);
+echo "</br>5 / 2 = " . (5/2);
+echo "</br>5 % 2 = " . (5%2);
 ?>
 </body>
 </html>
