@@ -26,6 +26,9 @@ EOD;
 
 echo $str;
 
+define('PI', 3.1415926);
+echo "The value of pi is " . PI;
+
 ?>
 </body>
 </html>
