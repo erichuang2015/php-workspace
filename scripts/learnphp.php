@@ -18,6 +18,14 @@ echo $userName . "<hr>";
 echo $address . "<hr>";
 echo $city . "<hr>";
 
+$str = <<<EOD
+The Customers name is
+$userName and they live
+at $address in $city</br>
+EOD;
+
+echo $str;
+
 ?>
 </body>
 </html>
